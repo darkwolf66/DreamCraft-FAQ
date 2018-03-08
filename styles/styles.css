@@ -1,0 +1,79 @@
+@font-face {
+    font-family: OCRAEXT;
+    src: url(./fonts/OCRAEXT.otf);
+}
+*{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: "OCRAEXT";
+	color: #c7c9c9;
+}
+body {
+	margin: 0;
+	background-color: #3e6e74;
+}
+header {
+	width: 100%;
+	height: 75px;
+	background-color: #018c9b;
+}
+.logo {
+	height: 50px;
+	margin-top: 13px;
+	margin-left: 25px;
+}
+nav {
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 30px;
+	width: 530px;
+}
+nav .menu-item {
+	float: left;
+	margin-right: 22px;
+	cursor: pointer;
+}
+nav .menu-item:hover {
+	color: white; 
+}
+main {
+	width: 1320px;
+	margin: auto;
+	margin-top: 25px;
+	height: 500px;
+}
+#sub-menu{
+	height: 500px;
+	width: 360px;
+	float: left;
+}
+.submenu-item {
+	text-align: center;
+	width: 340px;
+	height: 50px;
+	background-color: #6b9498;
+	margin-bottom: 2px;
+	font-size: 15px;
+	line-height: 50px;
+	cursor: pointer;
+}
+.submenu-item:hover {
+	color: white;
+}
+#main-content{
+	height: 490px;
+	float: left;
+	width: 940px;
+	background-color: #d0ddde;
+	padding: 5px;
+}
+#main-content .text{
+	color: #3e6e74;
+
+}
